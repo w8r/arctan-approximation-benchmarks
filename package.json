@@ -1,0 +1,31 @@
+{
+  "name": "vite-react-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "benchmark": "tsx benchmark.ts"
+  },
+  "dependencies": {
+    "d3": "^7.8.5",
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/benchmark": "^2.1.5",
+    "@types/d3": "^7.4.3",
+    "benchmark": "^2.1.4",
+    "eslint": "^9.9.1",
+    "globals": "^15.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.3.0",
+    "vite": "^5.4.2"
+  }
+}

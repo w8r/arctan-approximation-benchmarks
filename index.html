@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arctangent Approximation</title>
+    <script type="module" src="/src/main.ts"></script>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        margin: 0;
+        padding: 2rem;
+        background: #f3f4f6;
+      }
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .card {
+        background: white;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+      }
+      .header {
+        margin-bottom: 2rem;
+      }
+      .title {
+        font-size: 1.875rem;
+        font-weight: bold;
+        color: #1f2937;
+        margin: 0 0 1rem 0;
+      }
+      .description {
+        color: #4b5563;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="title">Arctangent Approximation Analysis</h1>
+        <p class="description">
+          Comparing Taylor series approximations with different term counts against Math.atan
+          in the range [-1, 1]. Each line represents a different number of terms in the series.
+        </p>
+      </div>
+      <div class="card">
+        <div id="chart"></div>
+      </div>
+    </div>
+  </body>
+</html>
